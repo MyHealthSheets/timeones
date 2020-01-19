@@ -6,6 +6,10 @@ printf "******************************************"
 printf "\nAustralia (GMT +11:00):\n";
 TZ='Australia/Brisbane' date +%d/%m/%y%t%H:%M:%S%t%r
 
+
+printf "\nPune India (GMT +11:00):\n";
+TZ='Asia/Kolkata' date +%d/%m/%y%t%H:%M:%S%t%r
+
 printf "\nReading UK (GMT +0:00):\n";
 TZ='Europe/London' date +%d/%m/%y%t%H:%M:%S%t%r
 
